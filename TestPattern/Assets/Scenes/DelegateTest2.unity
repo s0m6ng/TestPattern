@@ -455,8 +455,9 @@ GameObject:
   - component: {fileID: 611515731}
   - component: {fileID: 611515733}
   - component: {fileID: 611515732}
+  - component: {fileID: 611515734}
   m_Layer: 5
-  m_Name: DelegateTestDlg
+  m_Name: DelegateTest2Dlg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -523,6 +524,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611515730}
   m_CullTransparentMesh: 1
+--- !u!114 &611515734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611515730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c226a59b21f88fd4a8886c6912762d7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_items:
+  - {fileID: 1846667844}
+  - {fileID: 946558460}
+  - {fileID: 1022439627}
+  m_BtnOk: {fileID: 1422980422}
+  m_BtnClear: {fileID: 1263188956}
+  m_txtResult: {fileID: 1441905834}
 --- !u!1 &612442454
 GameObject:
   m_ObjectHideFlags: 0
@@ -959,6 +979,7 @@ GameObject:
   - component: {fileID: 946558459}
   - component: {fileID: 946558458}
   - component: {fileID: 946558457}
+  - component: {fileID: 946558460}
   m_Layer: 5
   m_Name: btnCity2
   m_TagString: Untagged
@@ -1069,6 +1090,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 946558455}
   m_CullTransparentMesh: 1
+--- !u!114 &946558460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946558455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d31192986168c84b9fcf1a9e4f7eb55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_txtName: {fileID: 916870810}
+  m_imgImage: {fileID: 946558458}
 --- !u!1 &957019269
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,6 +1239,7 @@ GameObject:
   - component: {fileID: 1022439626}
   - component: {fileID: 1022439625}
   - component: {fileID: 1022439624}
+  - component: {fileID: 1022439627}
   m_Layer: 5
   m_Name: btnCity3
   m_TagString: Untagged
@@ -1314,6 +1350,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1022439622}
   m_CullTransparentMesh: 1
+--- !u!114 &1022439627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022439622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d31192986168c84b9fcf1a9e4f7eb55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_txtName: {fileID: 1205909938}
+  m_imgImage: {fileID: 1022439625}
 --- !u!1 &1071372306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1740,7 +1790,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Delegate Test
+  m_Text: Delegate Test 2
 --- !u!222 &1365315431
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1935,7 +1985,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.000015259, y: -214.95}
-  m_SizeDelta: {x: 1106.3317, y: 93.6508}
+  m_SizeDelta: {x: 1246.329, y: 93.6508}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1441905834
 MonoBehaviour:
@@ -2059,6 +2109,7 @@ GameObject:
   - component: {fileID: 1846667843}
   - component: {fileID: 1846667842}
   - component: {fileID: 1846667841}
+  - component: {fileID: 1846667844}
   m_Layer: 5
   m_Name: btnCity1
   m_TagString: Untagged
@@ -2169,6 +2220,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1846667839}
   m_CullTransparentMesh: 1
+--- !u!114 &1846667844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846667839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d31192986168c84b9fcf1a9e4f7eb55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_txtName: {fileID: 1314443608}
+  m_imgImage: {fileID: 1846667842}
 --- !u!1 &2032768947
 GameObject:
   m_ObjectHideFlags: 0
